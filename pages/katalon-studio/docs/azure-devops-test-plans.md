@@ -91,8 +91,7 @@ To configure the integration, do as follows:
 
     	If you want to submit test results for ADO test case ID when there are multiple test points returned, select **Submit test results for multiple test points with the same test case ID**.
 
-	    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options-new.png" width=100%>
-
+	    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/integration/submission-options-release-definition-id-new-UI.png" width=100%>
 
 4. Click **Apply and Close** to save your settings.
 
@@ -113,6 +112,12 @@ To configure the integration, do as follows:
 When the execution finishes, the test run is created, and test results are uploaded automatically to ADO in the format specified as below:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/result-on-ado.png" width=100%>
+
+### View test run details on test plans
+
+From version 8.1.0 onwards, Katalon uses Release definition ID to get the latest Release and its environment when an execution finishes. It then passes them to the submitted test run.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/integration/view-test-run-detail-on-test-plan.png" width=100%>
 
 ### Dynamically changing test run’s information in CLI
 
