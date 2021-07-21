@@ -987,6 +987,8 @@ items:
             url: /katalon-studio/docs/working-with-execution-log.html
           - title: "Screenshots and Videos"
             url: /katalon-studio/docs/screenshots-videos.html
+          - title: "Record Browser-based Videos"
+            url: /katalon-studio/docs/record-browser-based-videos.html  
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
       - title: "Data-driven Testing"
