@@ -985,8 +985,8 @@ items:
             url: /katalon-studio/docs/test-suite-report.html
           - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
-          - title: "Screenshots and Videos"
-            url: /katalon-studio/docs/screenshots-videos.html
+          - title: "Capture Screenshots"
+            url: /katalon-studio/docs/capture-screenshots.html
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
       - title: "Data-driven Testing"
