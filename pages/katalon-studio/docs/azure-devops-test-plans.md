@@ -119,7 +119,7 @@ From version 8.1.0 onwards, Katalon uses Release definition ID to get the latest
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/integration/view-test-run-detail-on-test-plan.png" width=80%>
 
-### Dynamically changing test run’s information in CLI
+### Dynamically changing test run's information in CLI
 
 You can change the test plan ID, test run name, and build definition ID, release definition ID of a test run by using the following command-line.
 
@@ -132,7 +132,7 @@ You can change the test plan ID, test run name, and build definition ID, release
 * An active Katalon Runtime Engine license.
 * Katalon Runtime Engine version 8.0.0.
 
-<table data-number-column=“false” data-layout=“default” data-autosize=“false” data-pm-slice=“1 1 []“>
+<table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
 	<tbody>
 		<tr>
 			<th data-colwidth="254">
@@ -158,9 +158,9 @@ You can change the test plan ID, test run name, and build definition ID, release
 		</tr>
 		<tr>
 			<td data-colwidth="254">
-				<p>-adoTestRunName=“text”</p>
+				<p>-adoTestRunName="text"</p>
 			</td>
-			<td data-colwidth=“253”>
+			<td data-colwidth="253">
 				<p>Create test run(s) on ADO with the specified name.</p>
 			</td>
 			<td data-colwidth="253">
@@ -168,7 +168,7 @@ You can change the test plan ID, test run name, and build definition ID, release
 			</td>
 		</tr>
 		<tr>
-			<td data-colwidth=“254”>
+			<td data-colwidth="254">
 				<p>--info -adoDefinitionID=&lt;DefinitionID&gt;</p>
 			</td>
 			<td data-colwidth="253">
@@ -183,7 +183,7 @@ You can change the test plan ID, test run name, and build definition ID, release
 				<p>--info -<span data-renderer-mark="true">adoReleaseDefID</span>=&lt;DefinitionID&gt;</p>
 			</td>
 			<td data-colwidth="253">&nbsp;Based on the specified Definition ID, get the latest Release ID and its stage and pass them to Test Run properties on ADO.</td>
-			<td data-colwidth=“253”>N&nbsp;</td>
+			<td data-colwidth="253">N&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
