@@ -135,35 +135,35 @@ You can change the test plan ID, test run name, and build definition ID, release
 <table data-number-column=“false” data-layout=“default” data-autosize=“false” data-pm-slice=“1 1 []“>
 	<tbody>
 		<tr>
-			<th data-colwidth=“254”>
+			<th data-colwidth="254">
 				<p>Katalonc Command-line Option</p>
 			</th>
-			<th data-colwidth=“253">
+			<th data-colwidth="253">
 				<p>Description</p>
 			</th>
-			<th data-colwidth=“253”>
+			<th data-colwidth="253">
 				<p>Mandatory?</p>
 			</th>
 		</tr>
 		<tr>
-			<td data-colwidth=“254">
+			<td data-colwidth="254">
 				<p>-adoPlanId=&lt;testplan id&gt;</p>
 			</td>
-			<td data-colwidth=“253”>
+			<td data-colwidth="253">
 				<p>Id of the test plan used for submitting test run(s).</p>
 			</td>
-			<td data-colwidth=“253">
+			<td data-colwidth="253">
 				<p>N</p>
 			</td>
 		</tr>
 		<tr>
-			<td data-colwidth=“254”>
+			<td data-colwidth="254">
 				<p>-adoTestRunName=“text”</p>
 			</td>
 			<td data-colwidth=“253”>
 				<p>Create test run(s) on ADO with the specified name.</p>
 			</td>
-			<td data-colwidth=“253">
+			<td data-colwidth="253">
 				<p>N</p>
 			</td>
 		</tr>
@@ -171,18 +171,18 @@ You can change the test plan ID, test run name, and build definition ID, release
 			<td data-colwidth=“254”>
 				<p>--info -adoDefinitionID=&lt;DefinitionID&gt;</p>
 			</td>
-			<td data-colwidth=“253">
+			<td data-colwidth="253">
 				<p>Get the latest completed Build Definition ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
 			</td>
-			<td data-colwidth=“253”>
+			<td data-colwidth="253">
 				<p>N</p>
 			</td>
 		</tr>
 		<tr>
-			<td data-colwidth=“254">
-				<p>--info -<span data-renderer-mark=“true”>adoReleaseDefID</span>=&lt;DefinitionID&gt;</p>
+			<td data-colwidth="254">
+				<p>--info -<span data-renderer-mark="true">adoReleaseDefID</span>=&lt;DefinitionID&gt;</p>
 			</td>
-			<td data-colwidth=“253">&nbsp;Based on the specified Definition ID, get the latest Release ID and its stage and pass them to Test Run properties on ADO.</td>
+			<td data-colwidth="253">&nbsp;Based on the specified Definition ID, get the latest Release ID and its stage and pass them to Test Run properties on ADO.</td>
 			<td data-colwidth=“253”>N&nbsp;</td>
 		</tr>
 	</tbody>
