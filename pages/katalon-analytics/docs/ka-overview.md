@@ -56,3 +56,5 @@ This key module allows you to:
 
 * Set up and manage Test Environments and Script Repository.
 * Enable integration with other frameworks.
+
+> Learn more with our Katalon Academy course: [Effective Orchestration of Test Automation and DevOps](https://academy.katalon.com/courses/orchestration-test-automation-devops/?utm_source=kat_docs_testops&utm_medium=bottom_link&utm_campaign=academy_promotion).

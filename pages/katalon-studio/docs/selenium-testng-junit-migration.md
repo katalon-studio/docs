@@ -119,3 +119,5 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, please do 
 ## Usage Example
 
 A sample project of migrating TestNG scripts to Katalon Studio is available [here](https://github.com/katalon-studio-samples/TestNG-Migration).
+
+> Learn more with our Katalon Academy course: [Migrate from Selenium to Katalon Studio – Everything You Should Know](https://academy.katalon.com/courses/migrate-selenium/?utm_source=kat_docs_selen_migration&utm_medium=bottom_link&utm_campaign=academy_promotion).
