@@ -145,16 +145,6 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          <td>N</td>
       </tr>
       <tr>
-         <td>-retryFailedTestCases=&lt;true,false&gt;</td>
-         <td>Retry executing failed test cases in test suite (this parameter overrides setting in test suite file ). There are 2 options: true if you want to run failed test case; otherwise, false.</td>
-         <td>N</td>
-      </tr>
-      <tr>
-         <td>-retryFailedTestCasesTestData=&lt;true,false&gt;</td>
-         <td>Retry failed test data execution in test suite (this parameter overrides setting in test suite file). There are 2 options: true if you want to run failed test data execution; otherwise, false (available from version <strong>7.5</strong> and only for Katalon Studio Enterprise users).</td>
-         <td>N</td>
-      </tr>
-      <tr>
          <td>-retryStrategy=&lt;allExecutions,failedExecutions,immediately&gt;</td>
          <td>
          <p>This option is supported in version <strong>7.6 onwards</strong>. Specify which execution to be retried (this parameter overrides setting in test suite file):</p>
