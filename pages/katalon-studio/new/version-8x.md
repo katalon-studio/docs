@@ -7,9 +7,53 @@ redirect_from:
 description: Release notes 8.x
 ---
 
-## Official Release - Version 8.0.5
-
 > Download [here](https://www.katalon.com/download/).
+
+## Official Release - Version 8.1.0
+
+### New features
+
+* Introduced the Condition to stop test execution feature. See [doc's name](url)
+* [Mobile][Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url)
+
+### Enhancements
+
+* Supported Chrome 92.
+* Supported Microsoft Edge (Chromium) 92.
+* [TestRail Integration] Published new plugin version 1.1.0.
+* [Slack Integration] Published new plugin version 1.0.8.
+* [Sealights Integration] Published new APIs platform.
+* [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
+* [Katalon Studio Enterprise] Enhanced Retry Immediately Strategy. See [doc's name](url)
+* [Kobiton Integration] Supported customizing remote server protocol.
+* [Kobiton Integration] Supported customizing device name.
+* Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
+* [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported three times auto-retry once the activation was failed.
+
+### Fixes
+
+* Fixed UI issues:
+    * [Azure DevOps] Expanding Submission Options broke the UI.
+    * [macOS Big Sur] Could not switch to Object Properties View.
+    * [macOS Big Sur] Text of selecting items on table and tree were hidden.
+    * [macOS Big Sur] Could not updating Log Viewer when the execution items were changed on the Job Progress.
+    * Fixed labels and added referral link in the Library Management.
+    * [Mobile Object Spy] Fixed typo error "Application ID".
+* Bug: [Slack Integration] Failed to connect to Slack.
+* Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
+* Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
+* Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
+* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
+* Bug: [API Testing] An incorrect response thrown when leaving the parameter blank in the request URL path.
+* Bug: [Keyword] `waitForImagePresent` returned False despite the image was on the page.
+* Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
+* Bug: [Performance] Saving a Test Case with many variables took a long time.
+* Bug: An error message thrown when continuing recording the scripts with an existing test case.
+* Bug: Browser-based recorder could not record videos for the second test case if reusing opened browser.
+* Bug: Project Settings Explorer was not working.
+* Bug: Updated warning message when the broken Test Object could not be moved.
+
+## Version 8.0.5
 
 ### Improvements
 
@@ -27,10 +71,11 @@ description: Release notes 8.x
     * The Declaration of the keyword could not be opened.
     * [Cucumber] Custom Keywords in Step definitions were not working.
 * Bug: Resolved activation issue of Enterprise-exclusive plugins.
-* Bug: Test Suite stopped executing after some test cases.
+* Bug: Resolved Test Suite stopped executing after some test cases.
 * Fixed reports parsing issues:
-    * [Katalon Runtime Engine] Could not generate and submit JUnit report to TestOps.
+    * [Katalon Runtime Engine] Could not generate and submit JUnit report to Katalon TestOps.
     * Could not generate reports due to `Null` character in log files.
+    * [Katalon Runtime Engine] Katalon Studio Image could not send report to Katalon TestOps.
 * Fixed Katalon Runtime Engine hanging issues when:
     * Running tests with Selenium Grid.
     * [Test Suite Collection] The number of Java threads kept increasing during execution.
