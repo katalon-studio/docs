@@ -1258,9 +1258,7 @@ items:
       - title: "Configurations"
         tree:
           - title: "Katalon Studio Integration"
-            tree:
-              - title: "Upload Test Results from Katalon Studio"
-                url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+            url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Framework Integration"
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
@@ -1319,8 +1317,6 @@ items:
                 url: /katalon-analytics/docs/create-plan.html
               - title: "Execute Test Runs"
                 url: /katalon-analytics/docs/kt-scheduler.html
-              - title: "View Test Plan Summary in Katalon Studio"
-                url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Releases"
             url: /katalon-analytics/docs/kt-release.html
           - title: "Builds"
